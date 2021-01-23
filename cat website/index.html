@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./stile.css">
+    <title>Cat website</title>
+</head>
+<body>
+    <!-- logo-sidebar -->
+    <div class="logo-sticky">
+        <a href="#about">
+            <img src="./img/aboutlogo.svg" alt="">
+            <p>ABOUT</p>
+        </a>
+        <a href="#anatomy">
+            <img src="./img/anatomylogo.svg" alt="">
+            <p>ANATOMY</p>
+        </a>
+        <a href="#breeds">
+            <img src="./img/breedlogo.svg" alt="">
+            <p>BREEDS</p>
+        </a>
+        <a href="#care">
+            <img src="./img/carelogo.svg" alt="">
+            <p>CARE</p>
+        </a>
+    </div>
+
+    <!-- first page -->
+    <header>
+        <nav>
+            <div class="navbar"><img src="./img/aboutlogo.svg" alt=""><a href="#about">ABOUT</a></div>
+            <div class="navbar"><img src="./img/anatomylogo.svg" alt=""><a href="#anatomy">ANATOMY</a></div>
+            <div class="navbar"><img src="./img/breedlogo.svg" alt=""><a href="#breeds">BREEDS</a></div>
+            <div class="navbar"><img src="./img/carelogo.svg" alt=""><a href="#care">CARE</a></div>
+        </nav>
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="big-cat"><img src="./img/cat-big-logo.svg" alt=""></div>
+    </header>
+
+    <!-- about page -->
+    <section id="about" class="about">
+        <h1>ABOUT</h1>
+        <div class="classification">
+            <img src="/img/a.jpg" alt="">
+            <div class="text">
+                <p><strong>Kingdom:</strong> <span>Animalia</span></p>
+                <p><strong>Phylum:</strong> <span>Chordat</span></p>
+                <p><strong>Class:</strong> <span>Mammalia</span></p>
+                <p><strong>Order:</strong> <span>Carnivora</span></p>
+                <p><strong>Suborder:</strong> <span>Feliformia</span></p>
+                <p><strong>Family:</strong> <span>Felidae</span></p>
+                <p><strong>Genus:</strong> <span>Felis</span></p>
+                <p><strong>Species:</strong> <span>F. catus</span></p>
+            </div>
+        </div>
+        <div class="about-grid">
+            <div class="text">
+                <p>The cat is a domestic species of small carnivorous mammal.
+                    A cat can either be a house cat, a farm cat or a feral 
+                    cat; the latter ranges freely and avoids human contact.
+                    A predator that is most active at dawn and dusk, the cat 
+                    is a solitary hunter but a social species. It can hear 
+                    sounds too faint or too high in frequency for human ears, 
+                    such as those made by mice and other small mammals.
+                </p>
+            </div>
+            <img src="./img/c.jpg" alt="">
+            <img src="./img/b.jpg" alt="">
+            <div class="text">
+                <p>It was long thought that cat domestication was initiated 
+                    in ancient Egypt, as since around 3100 BC veneration was 
+                    given to cats in ancient Egypt.During domestication, cats 
+                    have undergone only minor changes in anatomy and behavior, 
+                    and they are still capable of surviving in the wild. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- anatomy page -->
+    <section id="anatomy" class="anatomy">
+        <h1>ANATOMY</h1>
+        <div class="container">
+            <div class="anatomy-img">
+                <img src="./img/ANATOMY-PARTS.svg" alt="">
+            </div>
+        </div>
+        <div class="container">
+
+        </div>
+    </section>
+
+    <!-- breeds -->
+    <section class="breeds" id="breeds">
+        <h1>BREEDS</h1>
+        <div class="content-breed">
+            <div class="container">
+            <div class="slide">
+                <div class="slide-img" id="last-clone">
+                    <img src="./img/british-shorthair.jpg" alt="">
+                    <p>British shorthair</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/siberian.jpg" alt="">
+                    <p>Siberian cat</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/siamese.jpg" alt="">
+                    <p>Siamese cat</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/sphynx.jpg" alt="">
+                    <p>Sphynx</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/benngal.jpg" alt="">
+                    <p>Benngal cat</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/turkish-angora.webp" alt="">
+                    <p>Turkish angora</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/russian-blue.webp" alt="">
+                    <p>Russian blue cat</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/maine-coon.jpg" alt="">
+                    <p>Maine coon</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/persian.jpg" alt="">
+                    <p>Persian cat</p>
+                </div>
+                <div class="slide-img">
+                    <img src="./img/british-shorthair.jpg" alt="">
+                    <p>British shorthair</p>
+                </div>
+                <div class="slide-img" id="first-clone">
+                    <img src="./img/siberian.jpg" alt="">
+                    <p>Siberian cat</p>
+                </div>
+            </div>
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+        </div>
+    </section>
+
+    <!-- care -->
+    <section id="care" class="care">
+        <h1>CARE</h1>
+        <div class="container">
+            <ol>
+                <li>FOOD</li>
+                <ul>
+                    <li>Cats require taurine, an essential amino acid, for heart and eye health.
+                    </li>
+                    <li>The food you choose has a big effect on your cat's overall health, so 
+                        you’ll want to make sure you’re feeding him or her something nutritious.
+                    </li>
+                    <li>Most cats stay relatively clean and rarely need a bath, but you 
+                        should brush or comb your cat regularly.
+                    </li>
+                </ul>
+                <li>Grooming</li>
+                <ul>
+                    <li>Brushing is easy and doesn't take too much time. Most cats enjoy being 
+                        brushed because it relaxes them. Regular brushing removes dead hair, 
+                        dirt, and helps keep the skin healthy.
+                    </li>
+                    <li></li>
+                    <li>If your cat sheds a lot or has the type of coat that's prone to mats, 
+                        consider using a FURminator occasionally, in addition to a regular brush.
+                    </li>
+                    <li>Mats can form on cats of any hair length, but are more common with medium and long-haired breeds.
+                        Once they form, they’re difficult to comb out. You might need a professional groomer or vet 
+                        to remove them or shave them off if they're severe enough.
+                    </li>
+                </ul>
+                <li>Claws Trimming</li>
+                <ul>
+                    <li>You'll need a small pair of cat scissors to trim your cat’s claws. Trimming is important to keep claws from getting too long, sharp, broken or frayed
+                    </li>
+                    <li>Trimming claws twice a month is usually enough</li>
+                    <li>Be sure the scissors you use are sharp. Once they're 
+                        dull, they tear the claw instead of cutting and this 
+                        is painful for the cat.</li>
+                </ul>
+                <li>Treats</li>
+                <ul>
+                    <li>It’s good to keep a bag of treats around to reward your 
+                        cat. Look for these wherever you buy cat food. There 
+                        are many flavors to choose from: chicken, fish, beef, 
+                        cheese, salmon, tartar control and even catnip. </li>
+                </ul>
+                <li>Veterinarian</li>
+                <ul>
+                    <li>Your vet will advise you about how often your cat or 
+                        kitten needs to be seen for check-ups and vaccinations.</li>
+                        <li>Bring a list of questions you may have about your 
+                            pet and its health. Your vet is a valuable ally in 
+                            keeping your new friend healthy.</li>
+                        <li>As long as they're well cared for, felines can live long, healthy lives</li>
+                </ul>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="me">
+                <h1>Made by Mihaela Marson</h1>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100013776813240"><i class="fab fa-facebook-square fa-4x"></i></a>
+                <a href="https://github.com/MicheleMarson"><i class="fab fa-github-alt fa-4x"></i></a>
+                <a href="mailto:mihaelamarson@gmail.com"><i class="fas fa-envelope fa-4x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
