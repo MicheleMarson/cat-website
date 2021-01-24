@@ -103,7 +103,7 @@ nav{
 .big-cat{
     margin: auto;
     width: 50%;
-    padding-top: 50px;
+    padding-top: 20px;
     animation: 3s ease;
     animation-name: cat;
 }
