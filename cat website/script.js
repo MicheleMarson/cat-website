@@ -3,8 +3,6 @@ function  scroll(element, position, newClass, num) {
     var elmtGet = document.querySelectorAll(element)[num];
     var pos = elmnt.getBoundingClientRect().top;
     var  screenPos = window.innerHeight / 2;
-    console.log(pos)
-    console.log(screenPos)
     if(pos < screenPos){
         elmtGet.classList.add(newClass);
     }else{
